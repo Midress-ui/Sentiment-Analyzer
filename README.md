@@ -80,20 +80,6 @@ O servidor estará rodando em `http://127.0.0.1:5000`. Abra esse endereço em se
 - Os 5 resultados mais recentes serão exibidos na página inicial.
 - Para visualizar todo o histórico, clique no link **"Ver histórico completo"** na página inicial.
 
-## Estrutura do Projeto
-
-```
-sentiment-analyzer/
-│
-├── app.py              # Arquivo principal com a lógica da aplicação Flask
-├── requirements.txt    # Lista de dependências do projeto
-├── templates/          # Pasta com templates HTML
-│   ├── index.html      # Página principal com o formulário e histórico resumido
-│   └── history.html    # Página de histórico completo
-└── static/             # Arquivo(s) de estilo (CSS) e scripts (JS)
-    ├── style.css       # Arquivo de estilo
-    └── script.js       # Arquivo de script (opcional)
-```
 
 ## Configuração do Banco de Dados
 
